@@ -12,7 +12,7 @@ The end goal is to enable a *self-healing* EV that diagnoses, predicts, and prev
 
 ### 🎯 Week 1 Objective
 
-* Preprocess the EV sensor dataset.
+* Preprocess the Battery and Heating Data in Real Driving Cycles dataset.
 * Engineer synthetic **battery health scores** and **fault labels**.
 * Build and train:
 
@@ -44,8 +44,8 @@ Week1/
 
 ### 📊 Dataset Information
 
-* **Dataset:** Electric Vehicle Health Dataset (custom EV telemetry)
-* **Size:** ~37 MB (trimmed to < 25 MB for GitHub)
+* **Dataset:** Battery and Heating Data in Real Driving Cycles
+* **Size:** ~37 MB 
 * **Key Features:**
 
   * `Battery Voltage [V]`
@@ -160,6 +160,6 @@ Models saved:
 
 ### 👩‍💻 Author
 
-**Rakshita R T**
+**Rakshita R Talegaon**
 KLE Technological University
-AI & Data Science | Generative AI Cohort Project
+AI & Data Science Enthusiast
