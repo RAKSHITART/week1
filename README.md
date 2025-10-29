@@ -44,9 +44,12 @@ Week1/
 
 ### 📊 Dataset Information
 
-* **Dataset:** Battery and Heating Data in Real Driving Cycles
-*🔗 **[Dataset Link: Battery and Heating Data in Real Driving Cycles – Kaggle](https://www.kaggle.com/datasets/atechnohazard/battery-and-heating-data-in-real-driving-cycles)**
-* **Size:** ~37 MB 
+**Dataset:** Battery and Heating Data in Real Driving Cycles  
+
+🔗 **[Dataset Link: Battery and Heating Data in Real Driving Cycles – Kaggle](https://www.kaggle.com/datasets/atechnohazard/battery-and-heating-data-in-real-driving-cycles)** 
+
+**Size:** ~37 MB  
+
 * **Key Features:**
 
   * `Battery Voltage [V]`
