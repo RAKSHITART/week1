@@ -1,18 +1,18 @@
-Dataset
+## 📊 Dataset
 
-The dataset used for this project is sourced from Kaggle.
-It contains key parameters related to electric vehicle (EV) battery performance, such as temperature, current, voltage, and state of charge (SOC), which are essential for predictive maintenance and fault detection tasks.
+The dataset used for this project is sourced from **Kaggle**.
+It contains key parameters related to **Electric Vehicle (EV) battery performance**, such as **temperature**, **current**, **voltage**, and **state of charge (SOC)** — essential for predictive maintenance and fault detection tasks.
 
-🔗 Dataset Link: 
-https://www.kaggle.com/datasets/atechnohazard/battery-and-heating-data-in-real-driving-cycles
+🔗 **Dataset Link:**
+[Battery and Heating Data in Real Driving Cycles – Kaggle](https://www.kaggle.com/datasets/atechnohazard/battery-and-heating-data-in-real-driving-cycles)
 
-📁 Dataset Size: ~37 MB
+📁 **Dataset Size:** ~37 MB
 
-🧹 Preprocessing Performed:
-Handling missing/null values
-Removing duplicates
-Feature normalization and scaling
-Outlier detection and treatment
+🧹 **Preprocessing Performed:**
 
+* Handling missing/null values
+* Removing duplicates
+* Feature normalization and scaling
+* Outlier detection and treatment
 
 
