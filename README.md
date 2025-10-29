@@ -45,6 +45,8 @@ Week1/
 ### 📊 Dataset Information
 
 * **Dataset:** Battery and Heating Data in Real Driving Cycles
+* 🔗 Dataset Link:
+Battery and Heating Data in Real Driving Cycles – Kaggle
 * **Size:** ~37 MB 
 * **Key Features:**
 
