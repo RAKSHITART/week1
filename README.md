@@ -30,14 +30,10 @@ Week1/
 │
 ├── README.md
 ├── notebooks/
-│   └── week1_battery_health_and_fault_detection.ipynb
-├── data/
-│   └── ev_dataset.csv
-└── outputs/
-    ├── feature_importance.png
-    ├── confusion_matrix.png
-    ├── health_score_distribution.png
-    └── precision_recall_curve.png
+│   └── week1_baseline_model.ipynb
+├── dataset
+│   
+└── requirements.txt
 ```
 
 ---
