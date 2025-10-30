@@ -1,0 +1,24 @@
+# ==================================================
+# Week 1 – EV Battery Health & Fault Detection
+# Project: Predictive Maintenance and Fault Diagnosis
+# ==================================================
+
+# ----- Core Libraries -----
+pandas==2.2.2            # Data manipulation and analysis
+numpy==1.26.4             # Numerical computations and array operations
+
+# ----- Visualization -----
+matplotlib==3.9.2         # Plotting graphs and charts
+seaborn==0.13.2           # Advanced statistical data visualization
+
+# ----- Machine Learning -----
+scikit-learn==1.5.1       # Modeling, preprocessing, and evaluation tools
+
+# ----- Model Persistence -----
+joblib==1.4.2              # Saving and loading trained models
+
+# ==================================================
+# Author: Rakshita R Talegaon
+# Institution: KLE Technological University
+# AICTE Internship – Week 1 Deliverable
+# ==================================================
