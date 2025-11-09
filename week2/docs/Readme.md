@@ -1,3 +1,8 @@
+Here's the **complete corrected README.md** with all formatting issues fixed:
+
+```markdown
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/)
+
 # 🔋 Self-Healing Electric Vehicle using Generative AI for Predictive Maintenance
 
 ## 📅 Week 2 – Advanced AI Models & Real-Time Deployment
@@ -33,8 +38,6 @@ Week2/
 ├── src/
 │   ├── battery_monitor.py
 │   └── requirements.txt
-├── .devcontainer/
-│   └── devcontainer.json
 ├── models/
 │   ├── best_btm_regressor.h5
 │   ├── final_btm_regressor.h5
@@ -207,8 +210,8 @@ Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
 
 | File | Purpose | Significance |
 |------|---------|--------------|
-| `final_lstm_regressor.h5` | Battery health prediction | 94.4% R² accuracy |
-| `final_rf_classifier.pkl` | Fault detection | 98.7% classification accuracy |
+| `final_btm_regressor.h5` | Battery health prediction | 94.4% R² accuracy |
+| `final_rf_classifier1.pkl` | Fault detection | 98.7% classification accuracy |
 | `final_scaler.pkl` | Feature normalization | Consistent data preprocessing |
 | `feature_columns.pkl` | Feature definitions | Model interpretability |
 | `performance_metrics.pkl` | Comprehensive evaluation | Performance tracking |
@@ -268,7 +271,7 @@ Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
 pip install -r requirements.txt
 
 # 2. Run the application
-streamlit run app.py
+streamlit run streamlit_app.py
 
 # 3. Access dashboard
 # http://localhost:8501
@@ -281,13 +284,13 @@ streamlit run app.py
 4. **24/7 live application available**
 
 ---
-# 🔋 Battery Health Monitoring App
 
-## Live Demo
+## 🔋 Live Demo
+
 🚀 **View the live application here:** 
 [https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/](https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/)
 
-## Local Development
+### Local Development
 If you want to run locally:
 
 ```bash
@@ -295,7 +298,10 @@ git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 streamlit run streamlit_app.py
+```
+
 ---
+
 ## 🎉 CONCLUSION
 
 Week 2 successfully delivers a **production-grade predictive maintenance system** that:
@@ -315,4 +321,4 @@ This system represents a **significant advancement** from Week 1, transforming b
 **Rakshita R Talegaon**  
 KLE Technological University  
 AI & Data Science Enthusiast
-
+```
