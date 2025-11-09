@@ -28,19 +28,26 @@ Building upon Week 1's foundation, this week focuses on developing **production-
 
 ```
 Week2/
-│
-├── README.md
-├── app.py                          # Streamlit web application
-├── requirements.txt                # Python dependencies
 ├── notebooks/
-│   └── week2_advanced_model.ipynb  # Complete model development
+│   └── week2_advanced_model.ipynb
+├── src/
+│   ├── battery_monitor.py
+│   └── requirements.txt
+├── .devcontainer/
+│   └── devcontainer.json
 ├── models/
-│   ├── final_lstm_regressor.h5     # Trained LSTM model (94.4% R²)
-│   ├── final_rf_classifier.pkl     # Random Forest classifier (98.7% accuracy)
-│   ├── final_scaler.pkl            # Feature scaler
-│   ├── feature_columns.pkl         # Feature definitions
-│   └── performance_metrics.pkl     # Comprehensive evaluation metrics
-└── project_summary.txt             # Executive report
+│   ├── best_btm_regressor.h5
+│   ├── final_btm_regressor.h5
+│   ├── final_rf_classifier1.pkl
+│   ├── final_scaler.pkl
+│   ├── feature_columns.pkl
+│   └── performance_metrics.pkl
+├── docs/
+│   ├── README.md
+│   └── project_summary.txt
+└── .github/
+    └── workflows/
+        └── deploy.yml
 ```
 
 ---
