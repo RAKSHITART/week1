@@ -274,6 +274,20 @@ streamlit run app.py
 4. **24/7 live application available**
 
 ---
+# 🔋 Battery Health Monitoring App
+
+## Live Demo
+🚀 **View the live application here:** 
+[https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/](https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/)
+
+## Local Development
+If you want to run locally:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+streamlit run streamlit_app.py
 
 ## 🎉 CONCLUSION
 
