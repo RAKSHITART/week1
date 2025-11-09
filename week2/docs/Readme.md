@@ -1,7 +1,4 @@
-Here's the **complete corrected README.md** with all formatting issues fixed:
 
-```markdown
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/)
 
 # 🔋 Self-Healing Electric Vehicle using Generative AI for Predictive Maintenance
 
