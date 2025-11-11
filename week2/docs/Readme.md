@@ -71,38 +71,40 @@ Building upon Week 1's foundation, this week focuses on developing **production-
 ---
 
 ### 📁 Repository Structure
+
+```
 Week2/
 ├── notebooks/
-│ └── week2_advanced_model.ipynb
+│   └── week2_advanced_model.ipynb
 ├── src/
-│ ├── battery_monitor.py
-│ └── requirements.txt
+│   ├── battery_monitor.py
+│   └── requirements.txt
 ├── models/
-│ ├── best_btm_regressor.h5
-│ ├── final_btm_regressor.h5
-│ ├── final_rf_classifier1.pkl
-│ ├── final_scaler.pkl
-│ ├── feature_columns.pkl
-│ └── performance_metrics.pkl
+│   ├── best_btm_regressor.h5
+│   ├── final_btm_regressor.h5
+│   ├── final_rf_classifier1.pkl
+│   ├── final_scaler.pkl
+│   ├── feature_columns.pkl
+│   └── performance_metrics.pkl
 ├── docs/
-│ ├── README.md
-│ └── project_summary.txt
+│   ├── README.md
+│   └── project_summary.txt
 └── .github/
-└── workflows/
-└── deploy.yml
-
-text
+    └── workflows/
+        └── deploy.yml
+```
 
 ---
 
 ### 🏗️ Advanced Architecture
-Raw Sensor Data → Feature Engineering → Multi-Model Ensemble → Generative AI → Real-Time Dashboard
-↓ ↓ ↓ ↓ ↓
-Voltage, Current 56 Engineered LSTM Regression OpenAI GPT-4 Streamlit App
-Temperature, SoC Features Random Forest Diagnostics 24/7 Monitoring
-AI Chatbot SDG Analytics Support Chat
 
-text
+```
+Raw Sensor Data → Feature Engineering → Multi-Model Ensemble → Generative AI → Real-Time Dashboard
+     ↓               ↓                       ↓                     ↓               ↓
+Voltage, Current  56 Engineered        LSTM Regression      OpenAI GPT-4     Streamlit App
+Temperature, SoC  Features            Random Forest        Diagnostics      24/7 Monitoring
+                                       AI Chatbot          SDG Analytics    Support Chat
+```
 
 ---
 
@@ -146,17 +148,17 @@ text
 | **Recall** | 0.9629 | 96.3% fault detection rate |
 
 ### 📊 Detailed Classification Report
-text
-          precision    recall  f1-score   support
 
-  Normal       0.86      0.96      0.91      3474
-   Fault       1.00      0.99      0.99     51265
+```
+              precision    recall  f1-score   support
 
-accuracy                           0.99     54739
-macro avg 0.93 0.98 0.95 54739
-weighted avg 0.99 0.99 0.99 54739
+      Normal       0.86      0.96      0.91      3474
+       Fault       1.00      0.99      0.99     51265
 
-text
+    accuracy                           0.99     54739
+   macro avg       0.93      0.98      0.95     54739
+weighted avg       0.99      0.99      0.99     54739
+```
 
 ---
 
@@ -223,184 +225,160 @@ text
 6. Interactive parameter tuning
 7. Professional visualization
 8. 24/7 monitoring readiness
-🌐 Deployment Ready:
-Streamlit Cloud compatible
+```
 
-Docker containerization support
+### 🌐 Deployment Ready:
 
-REST API endpoints available
+- **Streamlit Cloud** compatible
+- **Docker** containerization support
+- **REST API** endpoints available
+- **Scalable architecture** for enterprise deployment
 
-Scalable architecture for enterprise deployment
+---
 
-🤖 REAL-TIME AI CHATBOT FEATURES
-💬 Chatbot Knowledge Base Categories:
-🔋 Battery Health & Maintenance
+## 🤖 REAL-TIME AI CHATBOT FEATURES
 
-Health optimization strategies
+### 💬 Chatbot Knowledge Base Categories:
 
-Lifespan extension techniques
+1. **🔋 Battery Health & Maintenance**
+   - Health optimization strategies
+   - Lifespan extension techniques
+   - Maintenance scheduling
 
-Maintenance scheduling
+2. **⚡ Charging & Operations**
+   - Charging best practices
+   - Temperature management
+   - Range optimization
 
-⚡ Charging & Operations
+3. **🌍 Safety & Sustainability**
+   - Safety protocols and emergency procedures
+   - Troubleshooting common issues
+   - SDG and environmental impact
 
-Charging best practices
+### 🎯 Chatbot Response Quality:
+- **Detailed 3-4 line answers** for comprehensive information
+- **Professional formatting** with emojis and clear structure
+- **Context-aware responses** based on question categories
+- **Quick access buttons** for common questions
+- **Session memory** for continuous conversations
 
-Temperature management
+---
 
-Range optimization
+## 🌍 SDG SUSTAINABILITY INTEGRATION
 
-🌍 Safety & Sustainability
+### UN Sustainable Development Goals Supported:
 
-Safety protocols and emergency procedures
+**SDG 7: Affordable and Clean Energy**
+- Electric vehicles enable renewable energy integration
+- Smart charging supports grid stability and clean energy usage
+- Reduced dependence on fossil fuels
 
-Troubleshooting common issues
+**SDG 11: Sustainable Cities and Communities**
+- Zero tailpipe emissions for improved urban air quality
+- Reduced noise pollution in communities
+- Sustainable urban mobility solutions
 
-SDG and environmental impact
+**SDG 13: Climate Action**
+- Significant reduction in transportation emissions
+- Support for global carbon reduction targets
+- Climate-resilient infrastructure development
 
-🎯 Chatbot Response Quality:
-Detailed 3-4 line answers for comprehensive information
+### Environmental Impact Metrics:
+- **Carbon footprint reduction** through EV adoption
+- **Air quality improvement** in urban areas
+- **Renewable energy integration** support
+- **Sustainable resource management** through battery monitoring
 
-Professional formatting with emojis and clear structure
+---
 
-Context-aware responses based on question categories
+## 🧠 GENERATIVE AI INTEGRATION
 
-Quick access buttons for common questions
+### 🤖 OpenAI-Powered Diagnostics:
 
-Session memory for continuous conversations
-
-🌍 SDG SUSTAINABILITY INTEGRATION
-UN Sustainable Development Goals Supported:
-SDG 7: Affordable and Clean Energy
-
-Electric vehicles enable renewable energy integration
-
-Smart charging supports grid stability and clean energy usage
-
-Reduced dependence on fossil fuels
-
-SDG 11: Sustainable Cities and Communities
-
-Zero tailpipe emissions for improved urban air quality
-
-Reduced noise pollution in communities
-
-Sustainable urban mobility solutions
-
-SDG 13: Climate Action
-
-Significant reduction in transportation emissions
-
-Support for global carbon reduction targets
-
-Climate-resilient infrastructure development
-
-Environmental Impact Metrics:
-Carbon footprint reduction through EV adoption
-
-Air quality improvement in urban areas
-
-Renewable energy integration support
-
-Sustainable resource management through battery monitoring
-
-🧠 GENERATIVE AI INTEGRATION
-🤖 OpenAI-Powered Diagnostics:
-python
+```python
 # AI Diagnostic Pipeline:
 Sensor Data → Model Predictions → OpenAI GPT → Intelligent Reports
     ↓              ↓                ↓              ↓
 Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
-📋 AI Diagnostic Features:
-Automated Health Assessment
+```
 
-Risk Prioritization
+### 📋 AI Diagnostic Features:
 
-Maintenance Scheduling
+- **Automated Health Assessment**
+- **Risk Prioritization**
+- **Maintenance Scheduling**
+- **Cost-Benefit Analysis**
+- **Preventive Action Recommendations**
 
-Cost-Benefit Analysis
+---
 
-Preventive Action Recommendations
+## 📊 MODEL ARTIFACTS GENERATED
 
-📊 MODEL ARTIFACTS GENERATED
-File	Purpose	Significance
-final_btm_regressor.h5	Battery health prediction	94.4% R² accuracy
-final_rf_classifier1.pkl	Fault detection	98.7% classification accuracy
-final_scaler.pkl	Feature normalization	Consistent data preprocessing
-feature_columns.pkl	Feature definitions	Model interpretability
-performance_metrics.pkl	Comprehensive evaluation	Performance tracking
-project_summary.txt	Executive report	Business communication
-🛠️ TECHNICAL STACK
-🤖 Machine Learning & AI:
-TensorFlow/Keras (LSTM-CNN Hybrid)
+| File | Purpose | Significance |
+|------|---------|--------------|
+| `final_btm_regressor.h5` | Battery health prediction | 94.4% R² accuracy |
+| `final_rf_classifier1.pkl` | Fault detection | 98.7% classification accuracy |
+| `final_scaler.pkl` | Feature normalization | Consistent data preprocessing |
+| `feature_columns.pkl` | Feature definitions | Model interpretability |
+| `performance_metrics.pkl` | Comprehensive evaluation | Performance tracking |
+| `project_summary.txt` | Executive report | Business communication |
 
-Scikit-learn (Ensemble Methods)
+---
 
-OpenAI GPT-4 (Generative AI)
+## 🛠️ TECHNICAL STACK
 
-Custom AI Chatbot (Real-time support)
+### 🤖 Machine Learning & AI:
+- **TensorFlow/Keras** (LSTM-CNN Hybrid)
+- **Scikit-learn** (Ensemble Methods)
+- **OpenAI GPT-4** (Generative AI)
+- **Custom AI Chatbot** (Real-time support)
+- **SHAP** (Explainable AI)
 
-SHAP (Explainable AI)
+### 📊 Data Processing:
+- **Pandas** (Data manipulation)
+- **NumPy** (Numerical computing)
+- **Matplotlib/Seaborn** (Visualization)
 
-📊 Data Processing:
-Pandas (Data manipulation)
+### 🌐 Deployment:
+- **Streamlit** (Web application)
+- **Docker** (Containerization)
+- **REST APIs** (Integration ready)
 
-NumPy (Numerical computing)
+---
 
-Matplotlib/Seaborn (Visualization)
+## ✅ KEY ACHIEVEMENTS
 
-🌐 Deployment:
-Streamlit (Web application)
+### 🏆 Technical Milestones:
+- ✅ **94.4% R² Score** in battery health prediction
+- ✅ **98.7% Accuracy** in fault classification
+- ✅ **56 Feature Engineering** for comprehensive modeling
+- ✅ **Real-time Deployment** with Streamlit
+- ✅ **Generative AI Integration** for intelligent diagnostics
+- ✅ **Real-time AI Chatbot** for instant EV support
+- ✅ **SDG Sustainability Integration** for environmental tracking
 
-Docker (Containerization)
+### 💼 Business Value:
+- ✅ **$2M+ Annual Savings** quantified
+- ✅ **96.3% Fault Detection Rate** achieved
+- ✅ **Enterprise-ready** architecture
+- ✅ **Scalable Solution** for fleet management
+- ✅ **Environmental Impact** tracking through SDG alignment
 
-REST APIs (Integration ready)
+### 🎯 AICTE Judging Advantages:
+- ✅ **World-class performance metrics**
+- ✅ **Comprehensive business impact**
+- ✅ **Advanced technical implementation**
+- ✅ **Real-time AI chatbot support**
+- ✅ **SDG sustainability integration**
+- ✅ **Professional documentation**
+- ✅ **Real-world deployment readiness**
 
-✅ KEY ACHIEVEMENTS
-🏆 Technical Milestones:
-✅ 94.4% R² Score in battery health prediction
+---
 
-✅ 98.7% Accuracy in fault classification
+## 🚀 DEPLOYMENT INSTRUCTIONS
 
-✅ 56 Feature Engineering for comprehensive modeling
-
-✅ Real-time Deployment with Streamlit
-
-✅ Generative AI Integration for intelligent diagnostics
-
-✅ Real-time AI Chatbot for instant EV support
-
-✅ SDG Sustainability Integration for environmental tracking
-
-💼 Business Value:
-✅ $2M+ Annual Savings quantified
-
-✅ 96.3% Fault Detection Rate achieved
-
-✅ Enterprise-ready architecture
-
-✅ Scalable Solution for fleet management
-
-✅ Environmental Impact tracking through SDG alignment
-
-🎯 AICTE Judging Advantages:
-✅ World-class performance metrics
-
-✅ Comprehensive business impact
-
-✅ Advanced technical implementation
-
-✅ Real-time AI chatbot support
-
-✅ SDG sustainability integration
-
-✅ Professional documentation
-
-✅ Real-world deployment readiness
-
-🚀 DEPLOYMENT INSTRUCTIONS
-Quick Start:
-bash
+### Quick Start:
+```bash
 # 1. Install dependencies
 pip install -r requirements.txt
 
@@ -409,56 +387,70 @@ streamlit run streamlit_app.py
 
 # 3. Access dashboard
 # http://localhost:8501
-Streamlit Cloud Deployment:
-Upload to GitHub repository
+```
 
-Connect to https://share.streamlit.io
+### Streamlit Cloud Deployment:
+1. Upload to GitHub repository
+2. Connect to https://share.streamlit.io
+3. Deploy with one click
+4. **24/7 live application available**
 
-Deploy with one click
+---
 
-24/7 live application available
+## 🔋 Live Demo
 
-🔋 Live Demo
-🚀 View the live application here:
-https://3pyivundzgcgwdt3dwtzef.streamlit.app/
+🚀 **View the live application here:** 
+[https://3pyivundzgcgwdt3dwtzef.streamlit.app/](https://3pyivundzgcgwdt3dwtzef.streamlit.app/)
 
-🌟 New Features to Explore:
-🤖 Real-time AI Chatbot - Ask any EV battery questions
+### 🌟 New Features to Explore:
+1. **🤖 Real-time AI Chatbot** - Ask any EV battery questions
+2. **🌍 SDG Sustainability Dashboard** - Environmental impact tracking
+3. **🔋 Enhanced Battery Analytics** - Real-time health monitoring
+4. **⚡ Professional UI/UX** - Modern, responsive design
 
-🌍 SDG Sustainability Dashboard - Environmental impact tracking
-
-🔋 Enhanced Battery Analytics - Real-time health monitoring
-
-⚡ Professional UI/UX - Modern, responsive design
-
-Local Development
+### Local Development
 If you want to run locally:
 
-bash
+```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 streamlit run streamlit_app.py
-🎉 CONCLUSION
-Week 2 successfully delivers a production-grade predictive maintenance system that:
+```
 
-Predicts battery health with 94.4% accuracy using advanced LSTM networks
+---
 
-Detects faults with 98.7% precision through ensemble classification
+## 🎉 CONCLUSION
 
-Generates intelligent diagnostics using Generative AI
+Week 2 successfully delivers a **production-grade predictive maintenance system** that:
 
-Provides real-time AI chatbot support for instant EV battery guidance
+- **Predicts battery health with 94.4% accuracy** using advanced LSTM networks
+- **Detects faults with 98.7% precision** through ensemble classification
+- **Generates intelligent diagnostics** using Generative AI
+- **Provides real-time AI chatbot support** for instant EV battery guidance
+- **Integrates SDG sustainability metrics** for environmental impact tracking
+- **Provides real-time monitoring** via interactive web dashboard
+- **Demonstrates $2M+ business value** through comprehensive impact analysis
 
-Integrates SDG sustainability metrics for environmental impact tracking
+This system represents a **significant advancement** from Week 1, transforming basic predictive models into an **enterprise-ready AI platform** capable of real-world deployment, user support through AI chatbot, sustainability tracking, and substantial cost savings.
 
-Provides real-time monitoring via interactive web dashboard
+---
 
-Demonstrates $2M+ business value through comprehensive impact analysis
+### 👩‍💻 Author
 
-This system represents a significant advancement from Week 1, transforming basic predictive models into an enterprise-ready AI platform capable of real-world deployment, user support through AI chatbot, sustainability tracking, and substantial cost savings.
-
-👩‍💻 Author
-Rakshita R Talegaon
-KLE Technological University
+**Rakshita R Talegaon**  
+KLE Technological University  
 AI & Data Science Enthusiast
+
+---
+
+## 📞 Contact
+
+For questions or collaborations, feel free to reach out:
+- **Email**: rakshitatalegaon@gmail.com
+- **LinkedIn**: www.linkedin.com/in/rakshita-r-talegaon
+- **GitHub**: github.com/RAKSHITART
+
+---
+
+*Last Updated: December 2023*
