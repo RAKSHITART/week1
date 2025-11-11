@@ -1,5 +1,4 @@
-
-
+```markdown
 # 🔋 Self-Healing Electric Vehicle using Generative AI for Predictive Maintenance
 
 ## 📅 Week 2 – Advanced AI Models & Real-Time Deployment
@@ -11,6 +10,8 @@ Building upon Week 1's foundation, this week focuses on developing **production-
 - **Multi-class fault classification** for precise diagnostics
 - **Generative AI integration** for intelligent maintenance recommendations
 - **Real-time deployment** with interactive dashboards
+- **Real-time AI chatbot** for instant EV battery support
+- **SDG sustainability integration** for environmental impact tracking
 - **Explainable AI** for model interpretability and trust
 
 ---
@@ -22,7 +23,51 @@ Building upon Week 1's foundation, this week focuses on developing **production-
 * Integrate **Generative AI** for automated diagnostic reports and maintenance suggestions
 * Build **professional visualization dashboards** for model interpretability
 * Deploy **real-time Streamlit application** with 24/7 monitoring capabilities
+* Implement **AI-powered chatbot** for instant EV battery support
+* Integrate **SDG sustainability metrics** for environmental impact tracking
 * Conduct **comprehensive business impact analysis** with cost savings quantification
+
+---
+
+## 🆕 NEW FEATURES ADDED
+
+### 🤖 Real-Time AI Chatbot Support
+**Ask any questions about EV batteries and get detailed 3-4 line answers:**
+
+**Example Questions You Can Ask:**
+- "How can I extend my battery lifespan?"
+- "What are the best charging practices?"
+- "How does temperature affect battery performance?"
+- "What should I do if my battery temperature is too high?"
+- "How do EVs support Sustainable Development Goals?"
+- "What maintenance schedule should I follow?"
+- "How can I optimize my driving range?"
+- "What are the safety protocols for EV batteries?"
+
+**Chatbot Features:**
+- ✅ **Detailed 3-4 line responses** for comprehensive information
+- ✅ **Categorized knowledge base** (Health, Charging, Temperature, Safety, SDG, etc.)
+- ✅ **Quick question buttons** for instant access to common topics
+- ✅ **Session persistence** - remembers conversation history
+- ✅ **Professional UI** with user and bot message styling
+
+### 🌍 SDG Sustainability Integration
+**Supporting UN Sustainable Development Goals:**
+
+**SDG 7: Affordable & Clean Energy**
+- EVs enable renewable energy integration
+- Smart charging supports grid stability
+- Reduced fossil fuel dependency
+
+**SDG 11: Sustainable Cities**
+- Zero emission transportation
+- Reduced urban air pollution
+- Quieter urban environments
+
+**SDG 13: Climate Action**
+- Lower carbon footprint
+- Support for carbon reduction goals
+- Sustainable mobility solutions
 
 ---
 
@@ -33,7 +78,7 @@ Week2/
 ├── notebooks/
 │   └── week2_advanced_model.ipynb
 ├── src/
-│   ├── battery_monitor.py
+│   ├── battery_maintain.py
 │   └── requirements.txt
 ├── models/
 │   ├── best_btm_regressor.h5
@@ -59,6 +104,7 @@ Raw Sensor Data → Feature Engineering → Multi-Model Ensemble → Generative 
      ↓               ↓                       ↓                     ↓               ↓
 Voltage, Current  56 Engineered        LSTM Regression      OpenAI GPT-4     Streamlit App
 Temperature, SoC  Features            Random Forest        Diagnostics      24/7 Monitoring
+                                       AI Chatbot          SDG Analytics    Support Chat
 ```
 
 ---
@@ -72,10 +118,12 @@ Temperature, SoC  Features            Random Forest        Diagnostics      24/7
 | **3. Multi-class Classification** | 3-class fault detection (Normal/Warning/Critical) | ✅ |
 | **4. Ensemble Model Optimization** | Random Forest + XGBoost with hyperparameter tuning | ✅ |
 | **5. Generative AI Integration** | OpenAI-powered diagnostic reports | ✅ |
-| **6. SHAP Explainable AI** | Feature importance and model interpretability | ✅ |
-| **7. Professional Visualization** | 5+ interactive dashboards | ✅ |
-| **8. Streamlit Deployment** | Real-time web application | ✅ |
-| **9. Business Impact Analysis** | $2M+ cost savings quantification | ✅ |
+| **6. Real-time AI Chatbot** | Interactive support for EV battery questions | ✅ |
+| **7. SDG Sustainability Tracking** | Environmental impact and sustainability metrics | ✅ |
+| **8. SHAP Explainable AI** | Feature importance and model interpretability | ✅ |
+| **9. Professional Visualization** | 5+ interactive dashboards | ✅ |
+| **10. Streamlit Deployment** | Real-time web application | ✅ |
+| **11. Business Impact Analysis** | $2M+ cost savings quantification | ✅ |
 
 ---
 
@@ -126,6 +174,7 @@ weighted avg       0.99      0.99      0.99     54739
 | **Battery Health Prediction Accuracy** | 94.4% | Highly reliable forecasting |
 | **Critical Fault Prevention** | $2,007,000 | Major cost avoidance |
 | **Battery Life Extension** | $4,721 | Operational efficiency |
+| **SDG Environmental Impact** | Significant | Carbon reduction & sustainability |
 | **Total Estimated Annual Savings** | **$2,011,721** | **Significant ROI** |
 
 ### 🎯 Technical Excellence Highlights
@@ -135,6 +184,8 @@ weighted avg       0.99      0.99      0.99     54739
 - **CNN-LSTM Hybrid Architecture**: Advanced pattern recognition
 - **Ensemble Classification**: Maximum reliability through model combination
 - **Real-time Processing**: <100ms prediction latency
+- **AI Chatbot Support**: Instant answers to EV battery questions
+- **SDG Integration**: Sustainability tracking and reporting
 
 ---
 
@@ -157,6 +208,8 @@ weighted avg       0.99      0.99      0.99     54739
 - **Real-time Battery Parameter Adjustment**
 - **Live Health Score Predictions**
 - **AI-Powered Diagnostic Reports** (OpenAI GPT Integration)
+- **Real-time AI Chatbot Support** for EV battery questions
+- **SDG Sustainability Dashboard** with environmental impact
 - **Interactive Visualization Dashboard**
 - **Multi-class Fault Status Display**
 - **Professional Business Metrics**
@@ -168,9 +221,11 @@ weighted avg       0.99      0.99      0.99     54739
 1. Real-time health scoring (LSTM predictions)
 2. Fault classification (Normal/Warning/Critical)
 3. Generative AI diagnostics
-4. Interactive parameter tuning
-5. Professional visualization
-6. 24/7 monitoring readiness
+4. Real-time AI chatbot support
+5. SDG sustainability tracking
+6. Interactive parameter tuning
+7. Professional visualization
+8. 24/7 monitoring readiness
 ```
 
 ### 🌐 Deployment Ready:
@@ -179,6 +234,61 @@ weighted avg       0.99      0.99      0.99     54739
 - **Docker** containerization support
 - **REST API** endpoints available
 - **Scalable architecture** for enterprise deployment
+
+---
+
+## 🤖 REAL-TIME AI CHATBOT FEATURES
+
+### 💬 Chatbot Knowledge Base Categories:
+
+1. **🔋 Battery Health & Maintenance**
+   - Health optimization strategies
+   - Lifespan extension techniques
+   - Maintenance scheduling
+
+2. **⚡ Charging & Operations**
+   - Charging best practices
+   - Temperature management
+   - Range optimization
+
+3. **🌍 Safety & Sustainability**
+   - Safety protocols and emergency procedures
+   - Troubleshooting common issues
+   - SDG and environmental impact
+
+### 🎯 Chatbot Response Quality:
+- **Detailed 3-4 line answers** for comprehensive information
+- **Professional formatting** with emojis and clear structure
+- **Context-aware responses** based on question categories
+- **Quick access buttons** for common questions
+- **Session memory** for continuous conversations
+
+---
+
+## 🌍 SDG SUSTAINABILITY INTEGRATION
+
+### UN Sustainable Development Goals Supported:
+
+**SDG 7: Affordable and Clean Energy**
+- Electric vehicles enable renewable energy integration
+- Smart charging supports grid stability and clean energy usage
+- Reduced dependence on fossil fuels
+
+**SDG 11: Sustainable Cities and Communities**
+- Zero tailpipe emissions for improved urban air quality
+- Reduced noise pollution in communities
+- Sustainable urban mobility solutions
+
+**SDG 13: Climate Action**
+- Significant reduction in transportation emissions
+- Support for global carbon reduction targets
+- Climate-resilient infrastructure development
+
+### Environmental Impact Metrics:
+- **Carbon footprint reduction** through EV adoption
+- **Air quality improvement** in urban areas
+- **Renewable energy integration** support
+- **Sustainable resource management** through battery monitoring
 
 ---
 
@@ -222,6 +332,7 @@ Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
 - **TensorFlow/Keras** (LSTM-CNN Hybrid)
 - **Scikit-learn** (Ensemble Methods)
 - **OpenAI GPT-4** (Generative AI)
+- **Custom AI Chatbot** (Real-time support)
 - **SHAP** (Explainable AI)
 
 ### 📊 Data Processing:
@@ -244,17 +355,22 @@ Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
 - ✅ **56 Feature Engineering** for comprehensive modeling
 - ✅ **Real-time Deployment** with Streamlit
 - ✅ **Generative AI Integration** for intelligent diagnostics
+- ✅ **Real-time AI Chatbot** for instant EV support
+- ✅ **SDG Sustainability Integration** for environmental tracking
 
 ### 💼 Business Value:
 - ✅ **$2M+ Annual Savings** quantified
 - ✅ **96.3% Fault Detection Rate** achieved
 - ✅ **Enterprise-ready** architecture
 - ✅ **Scalable Solution** for fleet management
+- ✅ **Environmental Impact** tracking through SDG alignment
 
 ### 🎯 AICTE Judging Advantages:
 - ✅ **World-class performance metrics**
 - ✅ **Comprehensive business impact**
 - ✅ **Advanced technical implementation**
+- ✅ **Real-time AI chatbot support**
+- ✅ **SDG sustainability integration**
 - ✅ **Professional documentation**
 - ✅ **Real-world deployment readiness**
 
@@ -285,7 +401,13 @@ streamlit run streamlit_app.py
 ## 🔋 Live Demo
 
 🚀 **View the live application here:** 
-[https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/](https://rakshitart-week1-week2srcbattery-monitor-irdoww.streamlit.app/)
+[https://3pyivundzgcgwdt3dwtzef.streamlit.app/](https://3pyivundzgcgwdt3dwtzef.streamlit.app/)
+
+### 🌟 New Features to Explore:
+1. **🤖 Real-time AI Chatbot** - Ask any EV battery questions
+2. **🌍 SDG Sustainability Dashboard** - Environmental impact tracking
+3. **🔋 Enhanced Battery Analytics** - Real-time health monitoring
+4. **⚡ Professional UI/UX** - Modern, responsive design
 
 ### Local Development
 If you want to run locally:
@@ -306,10 +428,12 @@ Week 2 successfully delivers a **production-grade predictive maintenance system*
 - **Predicts battery health with 94.4% accuracy** using advanced LSTM networks
 - **Detects faults with 98.7% precision** through ensemble classification
 - **Generates intelligent diagnostics** using Generative AI
+- **Provides real-time AI chatbot support** for instant EV battery guidance
+- **Integrates SDG sustainability metrics** for environmental impact tracking
 - **Provides real-time monitoring** via interactive web dashboard
 - **Demonstrates $2M+ business value** through comprehensive impact analysis
 
-This system represents a **significant advancement** from Week 1, transforming basic predictive models into an **enterprise-ready AI platform** capable of real-world deployment and substantial cost savings.
+This system represents a **significant advancement** from Week 1, transforming basic predictive models into an **enterprise-ready AI platform** capable of real-world deployment, user support through AI chatbot, sustainability tracking, and substantial cost savings.
 
 ---
 
