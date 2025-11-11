@@ -364,7 +364,7 @@ Raw Metrics   Health Scores    Context Analysis  Maintenance Recommendations
 - ✅ **Scalable Solution** for fleet management
 - ✅ **Environmental Impact** tracking through SDG alignment
 
-### 🎯 AICTE Judging Advantages:
+### 🎯 Advantages:
 - ✅ **World-class performance metrics**
 - ✅ **Comprehensive business impact**
 - ✅ **Advanced technical implementation**
@@ -449,8 +449,8 @@ AI & Data Science Enthusiast
 For questions or collaborations, feel free to reach out:
 - **Email**: rakshitatalegaon@gmail.com
 - **LinkedIn**: www.linkedin.com/in/rakshita-r-talegaon
-- **GitHub**: github.com/RAKSHITART
+- **GitHub**: https://github.com/RAKSHITART
 
 ---
 
-*Last Updated: December 2023*
+
