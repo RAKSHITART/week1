@@ -51,26 +51,26 @@ Building upon Week 1's foundation, this week focuses on developing **production-
 - ✅ **Session persistence** - remembers conversation history
 - ✅ **Professional UI** with user and bot message styling
 
-📄 Automated Report Generation Feature
-🆕 NEW FEATURE ADDED
-📊 Automated Professional Report Generation
-Generate comprehensive battery health reports with one click:
+# 📄 Automated Report Generation Feature
 
-Report Features:
+## 🆕 NEW FEATURE ADDED
 
-✅ One-Click Generation - Instant comprehensive analysis reports
-✅ Professional PDF/Text Export - Downloadable in multiple formats
-✅ Executive Summary - Overall health status and critical alerts
-✅ Detailed Parameter Analysis - Voltage, current, temperature, SOC evaluation
-✅ Prediction Results - Health scores and fault probabilities with interpretations
-✅ Maintenance Recommendations - Actionable insights and scheduling
-✅ SDG Impact Assessment - Environmental and sustainability metrics
-✅ Business Cost Analysis - Quantified savings and ROI calculation
-✅ Timestamped Reports - Real-time data with generation timestamps
+### 📊 Automated Professional Report Generation
+**Generate comprehensive battery health reports with one click:**
 
-Report Contents Include:
+**Report Features:**
+- ✅ **One-Click Generation** - Instant comprehensive analysis reports
+- ✅ **Professional PDF/Text Export** - Downloadable in multiple formats
+- ✅ **Executive Summary** - Overall health status and critical alerts
+- ✅ **Detailed Parameter Analysis** - Voltage, current, temperature, SOC evaluation
+- ✅ **Prediction Results** - Health scores and fault probabilities with interpretations
+- ✅ **Maintenance Recommendations** - Actionable insights and scheduling
+- ✅ **SDG Impact Assessment** - Environmental and sustainability metrics
+- ✅ **Business Cost Analysis** - Quantified savings and ROI calculation
+- ✅ **Timestamped Reports** - Real-time data with generation timestamps
 
-text
+**Report Contents Include:**
+```
 EV BATTERY HEALTH REPORT
 Generated: [Real-time Timestamp]
 Analysis Mode: [AI/Demo Mode Status]
@@ -117,14 +117,15 @@ TECHNICAL NOTES:
 • Model accuracy and confidence levels
 • Analysis methodology
 • System version and capabilities
+```
 
-Report Generation Benefits:
-🚀 Instant Documentation - No manual analysis required
-💼 Professional Quality - Enterprise-ready report formatting
-📈 Data-Driven Decisions - Actionable insights for maintenance planning
-🌍 Sustainability Tracking - Environmental impact documentation
-💰 Business Intelligence - Cost savings and ROI evidence
-🔧 Maintenance Planning - Scheduled service recommendations
+**Report Generation Benefits:**
+- 🚀 **Instant Documentation** - No manual analysis required
+- 💼 **Professional Quality** - Enterprise-ready report formatting
+- 📈 **Data-Driven Decisions** - Actionable insights for maintenance planning
+- 🌍 **Sustainability Tracking** - Environmental impact documentation
+- 💰 **Business Intelligence** - Cost savings and ROI evidence
+- 🔧 **Maintenance Planning** - Scheduled service recommendations
 
 This feature transforms complex battery data into professional, actionable reports that can be shared with technicians, management, or for regulatory compliance purposes.
 
